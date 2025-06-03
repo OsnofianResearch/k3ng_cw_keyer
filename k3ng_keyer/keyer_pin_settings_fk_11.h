@@ -88,6 +88,7 @@ FEATURE_SIDETONE_SWITCH
   #define led_ring_le     A8 //4    //Latch
 #endif //FEATURE_LED_RING
 
+// Look into this feature:
 #define correct_answer_led 0
 #define wrong_answer_led 0
 

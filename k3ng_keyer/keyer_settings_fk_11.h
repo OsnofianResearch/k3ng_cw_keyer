@@ -2,8 +2,8 @@
 
 // Initial and hardcoded settings
 #define initial_speed_wpm 26             // "factory default" keyer speed setting
-#define initial_command_mode_speed_wpm 20 // "factory default" command mode speed setting 
-#define initial_sidetone_freq 600        // "factory default" sidetone frequency setting
+#define initial_command_mode_speed_wpm 12 // "factory default" command mode speed setting 
+#define initial_sidetone_freq 440        // "factory default" sidetone frequency setting
 #define sidetone_hz_limit_low 299
 #define sidetone_hz_limit_high 2001
 #define hz_high_beep 1500                // frequency in hertz of high beep
@@ -235,7 +235,7 @@
   #define mem12 11
 #endif //#if defined(FEATURE_4x4_KEYPAD)|| defined (FEATURE_3x4_KEYPAD)
 
-#define initial_sidetone_mode 1            // Sidetone mode, 0=OFF, 1=ON, 2=PADDLE_ONLY
+#define initial_sidetone_mode 2            // Sidetone mode, 0=OFF, 1=ON, 2=PADDLE_ONLY //default 1, Afonso set to 2
 
 #define sd_card_spi_ss_line 4
 
@@ -291,7 +291,7 @@
 #define sidetone_volume_low_limit 10
 #define sidetone_volume_high_limit 500
 
-#define custom_startup_field "your custom text here"   // an example could be callsign and name, eg. "AB1XYZ Bob", (or "Worlds best operator" which requires a 20 column display), string length shouldo be no more than the number of columns on the display
+#define custom_startup_field "M7PZE Jose 2025"   // an example could be callsign and name, eg. "AB1XYZ Bob", (or "Worlds best operator" which requires a 20 column display), string length shouldo be no more than the number of columns on the display
 
 #define command_mode_acknowledgement_character 'E'
 
