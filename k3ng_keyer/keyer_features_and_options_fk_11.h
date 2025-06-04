@@ -44,7 +44,7 @@
 // #define FEATURE_CAPACITIVE_PADDLE_PINS  // remove the bypass capacitors on the paddle_left and paddle_right lines when using capactive paddles
 // #define FEATURE_LED_RING                // Mayhew Labs Led Ring support
 #define FEATURE_ALPHABET_SEND_PRACTICE  // enables command mode S command - created by Ryan, KC2ZWM
-// #define FEATURE_COMMAND_MODE_PROGRESSIVE_5_CHAR_ECHO_PRACTICE // enables command mode U
+#define FEATURE_COMMAND_MODE_PROGRESSIVE_5_CHAR_ECHO_PRACTICE // enables command mode U
 // #define FEATURE_PTT_INTERLOCK 
 // #define FEATURE_QLF
 // #define FEATURE_EEPROM_E24C1024
@@ -56,7 +56,7 @@
 // #define FEATURE_4x4_KEYPAD          // code contributed by Jack, W0XR - documentation: https://github.com/k3ng/k3ng_cw_keyer/wiki/380-Feature:-Keypad
 // #define FEATURE_3x4_KEYPAD          // code contributed by Jack, W0XR - documentation: https://github.com/k3ng/k3ng_cw_keyer/wiki/380-Feature:-Keypad
 // #define FEATURE_SEQUENCER
-// #define FEATURE_COMMAND_MODE_ENHANCED_CMD_ACKNOWLEDGEMENT
+#define FEATURE_COMMAND_MODE_ENHANCED_CMD_ACKNOWLEDGEMENT
 // #define FEATURE_WEB_SERVER      // Details: https://github.com/k3ng/k3ng_cw_keyer/wiki/390-Feature:-Ethernet,-Web-Server,-and-Internet-Linking
 // #define FEATURE_INTERNET_LINK   // Details: https://github.com/k3ng/k3ng_cw_keyer/wiki/390-Feature:-Ethernet,-Web-Server,-and-Internet-Linking
 
@@ -79,7 +79,7 @@
 #define OPTION_WINKEY_2_HOST_CLOSE_NO_SERIAL_PORT_RESET  // (Required for Win-Test to function)
 // #define OPTION_WINKEY_FREQUENT_STATUS_REPORT         // activate this to make Winkey emulation play better with RUMlog and RUMped
 #define OPTION_WINKEY_IGNORE_LOWERCASE               // Enable for typical K1EL Winkeyer behavior (use for SkookumLogger version 1.10.14 and prior to workaround "r" bug)
-// #define OPTION_WINKEY_BLINK_PTT_ON_HOST_OPEN
+#define OPTION_WINKEY_BLINK_PTT_ON_HOST_OPEN
 // #define OPTION_WINKEY_SEND_VERSION_ON_HOST_CLOSE
 // #define OPTION_WINKEY_PINCONFIG_PTT_CONTROLS_PTT_LINE  // Have Winkeyer PTT setting activate/deactivate PTT line rather than control buffered character PTT hold 
 // #define OPTION_REVERSE_BUTTON_ORDER                // This is mainly for the DJ0MY NanoKeyer http://nanokeyer.wordpress.com/
@@ -119,12 +119,12 @@
 // #define OPTION_WORDSWORTH_NORSK
 // #define OPTION_WORDSWORTH_POLISH
 
-#define OPTION_EXCLUDE_EXTENDED_CLI_COMMANDS
+//#define OPTION_EXCLUDE_EXTENDED_CLI_COMMANDS //afo
 
 // #define OPTION_DFROBOT_LCD_COMMAND_BUTTONS
 
 // #define OPTION_EXCLUDE_MILL_MODE
-#define OPTION_NO_ULTIMATIC // reduce memory usage by removing ultimatic code. //Afonso
+// #define OPTION_NO_ULTIMATIC // reduce memory usage by removing ultimatic code. //Afonso
 
 // #define OPTION_DISABLE_SERIAL_PORT_CHECKING_WHILE_SENDING_CW
 #define OPTION_PERSONALIZED_STARTUP_SCREEN        // displays a user defined string of characters on the second or fourth row of the screen during startup. 1602 display requires OPTION_DO_NOT_SAY_HI //Afonso

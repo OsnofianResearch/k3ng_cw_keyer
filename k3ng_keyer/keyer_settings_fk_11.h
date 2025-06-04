@@ -289,9 +289,10 @@
 #define farnsworth_timing_calibration 1.15
 
 #define sidetone_volume_low_limit 10
-#define sidetone_volume_high_limit 500
+#define sidetone_volume_high_limit 200
+#define sidetone_volume_default 50
 
-#define custom_startup_field "M7PZE Jose 2025"   // an example could be callsign and name, eg. "AB1XYZ Bob", (or "Worlds best operator" which requires a 20 column display), string length shouldo be no more than the number of columns on the display
+#define custom_startup_field "2025 - M7PZE Jose"   // an example could be callsign and name, eg. "AB1XYZ Bob", (or "Worlds best operator" which requires a 20 column display), string length shouldo be no more than the number of columns on the display
 
 #define command_mode_acknowledgement_character 'E'
 
