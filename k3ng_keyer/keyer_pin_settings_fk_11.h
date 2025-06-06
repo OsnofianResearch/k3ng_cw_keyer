@@ -89,8 +89,8 @@ FEATURE_SIDETONE_SWITCH
 #endif //FEATURE_LED_RING
 
 // Look into this feature:
-#define correct_answer_led 0
-#define wrong_answer_led 0
+#define correct_answer_led 3
+#define wrong_answer_led 4
 
 #ifdef FEATURE_PTT_INTERLOCK
   #define ptt_interlock 0  // this pin disables PTT and TX KEY

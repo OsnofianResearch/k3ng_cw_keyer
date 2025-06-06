@@ -1,7 +1,7 @@
 // Funtronics FK-11
 
 // Initial and hardcoded settings
-#define initial_speed_wpm 26             // "factory default" keyer speed setting
+#define initial_speed_wpm 20             // "factory default" keyer speed setting
 #define initial_command_mode_speed_wpm 12 // "factory default" command mode speed setting 
 #define initial_sidetone_freq 440        // "factory default" sidetone frequency setting
 #define sidetone_hz_limit_low 299
